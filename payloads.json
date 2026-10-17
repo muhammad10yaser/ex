@@ -45,6 +45,11 @@
     "type": "elf"
   },
   {
+    "name": "LZ4-Game-Compressor-beta.2.elf",
+    "size": 3502560,
+    "type": "elf"
+  },
+  {
     "name": "nanodns.elf",
     "size": 132352,
     "type": "elf"
@@ -55,8 +60,13 @@
     "type": "elf"
   },
   {
-    "name": "OnionHEN(0.13).elf",
+    "name": "OnionHEN(upto 12.70).elf",
     "size": 4326024,
+    "type": "elf"
+  },
+  {
+    "name": "OnionHEN(Upto 13.60).elf",
+    "size": 4676224,
     "type": "elf"
   },
   {
@@ -67,6 +77,11 @@
   {
     "name": "pldmgr_v0.5.1.elf",
     "size": 2410768,
+    "type": "elf"
+  },
+  {
+    "name": "pldmgr_v0.6.1.elf",
+    "size": 3484120,
     "type": "elf"
   },
   {
@@ -90,13 +105,23 @@
     "type": "elf"
   },
   {
-    "name": "shadowmountplus(0.17 beta 2).elf",
-    "size": 2449672,
+    "name": "ShadowMountPlus 1.7beta5.elf",
+    "size": 2498376,
+    "type": "elf"
+  },
+  {
+    "name": "TabShifter-v1.1.0.elf",
+    "size": 1334816,
     "type": "elf"
   },
   {
     "name": "webkit-autoloader-installer_v0.5.2.elf",
     "size": 2311424,
+    "type": "elf"
+  },
+  {
+    "name": "webkit-autoloader-installer_v0.6.1.elf",
+    "size": 3556608,
     "type": "elf"
   }
 ]
