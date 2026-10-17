@@ -15,15 +15,33 @@ Supported firmware: 7.00 through 13.60.
 
 ## Included payloads
 
-All payloads are stored in `payloads/`:
+All payloads are stored in `payloads/` and listed in `payloads.json`:
 
+- `CheatRunner_v0.12.elf` — cheat runner
 - `elfldr-ps5-1360.elf` — ELF loader (listens on port 9021)
-- `kstuff.elf` — kernel payload
-- `shadowmountplus.elf` — mount helper
-- `etaHEN.elf` — homebrew enabler
-- `webkit-autoloader-installer_v0.5.0.elf` — WebKit autoloader installer
-- `game-compressor.elf` — game compressor payload
-- `pldmgr_v0.5.1.elf` — payload manager
+- `etaHEN(13.60).elf` — homebrew enabler (13.60 build)
+- `ftpsrv-ps5.elf` — FTP server (PS5 build)
+- `ftpsrv.elf` — FTP server
+- `game-compressor (1.04).elf` — game compressor
+- `garlic-savemgr.elf` — save manager
+- `kstuff lite (1.11).elf` — kernel payload
+- `lapy_jb_daemon.elf` — jailbreak daemon
+- `LZ4-Game-Compressor-beta.2.elf` — LZ4 game compressor (beta)
+- `nanodns.elf` — minimal DNS server
+- `np-fake-signin-ps5.elf` — fake NP sign-in
+- `OnionHEN(upto 12.70).elf` — OnionHEN (firmware ≤ 12.70)
+- `OnionHEN(Upto 13.60).elf` — OnionHEN (firmware ≤ 13.60)
+- `pkg-manager_v1.4.1.elf` — PKG manager
+- `pldmgr_v0.5.1.elf` — payload manager (v0.5.1)
+- `pldmgr_v0.6.1.elf` — payload manager (v0.6.1)
+- `PoorDS4-stop.elf` — PoorDS4 (stop)
+- `PoorDS4rc51.elf` — PoorDS4 (rc51)
+- `ps5-app-dumper.elf` — app dumper
+- `ps5-backpork.elf` — backpork
+- `ShadowMountPlus 1.7beta5.elf` — mount helper
+- `TabShifter-v1.1.0.elf` — tab shifter
+- `webkit-autoloader-installer_v0.5.2.elf` — WebKit autoloader installer (v0.5.2)
+- `webkit-autoloader-installer_v0.6.1.elf` — WebKit autoloader installer (v0.6.1)
 
 Missing payloads are skipped automatically.
 
@@ -41,11 +59,30 @@ Clicking a row with the mouse has the same effect as pressing X on it.
 ## Payload list (display order)
 
 1. `pldmgr_v0.5.1.elf`
-2. `kstuff.elf`
-3. `shadowmountplus.elf`
-4. `game-compressor.elf`
-5. `webkit-autoloader-installer_v0.5.0.elf`
-6. `etaHEN.elf`
+2. `kstuff lite (1.11).elf`
+3. `ShadowMountPlus 1.7beta5.elf`
+4. `game-compressor (1.04).elf`
+5. `webkit-autoloader-installer_v0.5.2.elf`
+6. `etaHEN(13.60).elf`
+7. `CheatRunner_v0.12.elf`
+8. `elfldr-ps5-1360.elf`
+9. `ftpsrv-ps5.elf`
+10. `ftpsrv.elf`
+11. `garlic-savemgr.elf`
+12. `lapy_jb_daemon.elf`
+13. `LZ4-Game-Compressor-beta.2.elf`
+14. `nanodns.elf`
+15. `np-fake-signin-ps5.elf`
+16. `OnionHEN(upto 12.70).elf`
+17. `OnionHEN(Upto 13.60).elf`
+18. `pkg-manager_v1.4.1.elf`
+19. `pldmgr_v0.6.1.elf`
+20. `PoorDS4-stop.elf`
+21. `PoorDS4rc51.elf`
+22. `ps5-app-dumper.elf`
+23. `ps5-backpork.elf`
+24. `TabShifter-v1.1.0.elf`
+25. `webkit-autoloader-installer_v0.6.1.elf`
 
 When you press **L2**, only the **selected** payloads are sent, in the order above. Each payload is sent with a short delay (3 s) so elfldr can finish loading before the next one arrives.
 
